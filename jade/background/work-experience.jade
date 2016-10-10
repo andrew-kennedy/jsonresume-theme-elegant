@@ -35,7 +35,8 @@ unless _.isEmpty(resume.work)
                       i.icon-clock.mr-5
                       |#{experience.duration}
 
-              .mop-wrapper.space-bottom!= experience.summary
+              //- don't display company summary
+              //- .mop-wrapper.space-bottom!= experience.summary
 
               unless _.isEmpty(experience.highlights)
                 ul
